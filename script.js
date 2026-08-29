@@ -1,0 +1,1 @@
+const menu=document.querySelector('.menu');const mobile=document.querySelector('.mobile-menu');menu?.addEventListener('click',()=>mobile.classList.toggle('open'));mobile?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobile.classList.remove('open')));document.getElementById('year').textContent=new Date().getFullYear();
